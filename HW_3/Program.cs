@@ -108,7 +108,7 @@ public class Answer
     private static double Length(int[] pointA, int[] pointB)
     {
       // Введите свое решение ниже
-
+      return Math.Sqrt(Math.Pow(pointB[0] - pointA[0], 2) + Math.Pow(pointB[1] - pointA[1], 2) + Math.Pow(pointB[2] - pointA[2], 2));
 
     }
 
